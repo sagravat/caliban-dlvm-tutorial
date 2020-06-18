@@ -42,7 +42,7 @@ $ caliban cloud --nogpu --dlvm pytorch trainer.mnist -- --epochs 2
 ### Create notebook instance using DLVM
 ```bash
 $ export GOOGLE_APPLICATION_CREDENTIALS=<key.json>
-$ export PROJECT_ID_=<GCP PROJECT_ID_>
+$ export PROJECT_ID=<GCP PROJECT_ID>
 $ cd <caliban-tutorial-dlvm cloned dir>
 $ cd pytorch
 $ caliban notebook --nogpu --dlvm pytorch 
